@@ -1,0 +1,37 @@
+# [Common]
+*.o
+Makefile*
+.directory
+*~
+BUILD
+*.autosave
+.obj
+.moc
+.ui
+.rcc
+ASCPlayer
+*.pdf
+
+# [Qt Specific]
+moc_*
+qrc_*
+ui_*
+*.moc
+qmlcache*
+*qmlcache.qrc
+*_qml.cpp
+*Script_js.cpp
+
+# [QtCreator]
+*.pro.user*
+
+# [Project]
+/bin/*
+/lib/
+/build/
+*.qmake.stash
+
+*.jpg
+*.bmp
+*.html
+*.bin
